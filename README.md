@@ -21,4 +21,4 @@ On Linux: python parse.py /path/to/tickfile /path/to/lyricsfile resolution > out
 originally built for a specific .chord file. 
 
 - the function handle_ending is responsible for extracting the lyric component from a single line. You may change
-this if the lyric output is wonky.
+this if the lyric output is wrong.
