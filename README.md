@@ -15,3 +15,10 @@ Maps Lyrics from Clone Hero .chart files to SRT Subtitle Format
 The script will print the result to stdout so you can redirect it to a srt file.
 
 On Linux: python parse.py /path/to/tickfile /path/to/lyricsfile resolution > out.srt 
+
+## Notes
+- output might be a bit wonky regarding times and lyrics-extraction, since this was 
+originally built for a specific .chord file. 
+
+- the function handle_ending is responsible for extracting the lyric component from a single line. You may change
+this if the lyric output is wonky.
