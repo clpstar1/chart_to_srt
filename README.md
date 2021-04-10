@@ -10,8 +10,8 @@ Maps Lyrics from Clone Hero .chart files to SRT Subtitle Format
 
 ## Script Execution
 1. Install Python if you haven't
-2. run the script with python parse.py <tickfile> <lyricsfile> resolution
+2. Run the script with python parse.py /path/to/tickfile /path/to/lyricsfile resolution 
 
 The script will print the result to stdout so you can redirect it to a srt file.
 
-On Linux: python parse.py <tickfile> <lyricsfile> resolution > out.srt 
+On Linux: python parse.py /path/to/tickfile /path/to/lyricsfile resolution > out.srt 
